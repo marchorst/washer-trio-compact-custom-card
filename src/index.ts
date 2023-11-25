@@ -1,13 +1,13 @@
-import { WhirlpoolForecastCustomCard } from "./custom-element/whirlpool-forecast-custom-card";
+import { WasherTrioCompactCustomCard } from "./custom-element/washer-trio-compact-custom-card";
 import { printVersion } from "./utils";
 
 // Registering card
-customElements.define("whirlpool-forecast-custom-card", WhirlpoolForecastCustomCard);
+customElements.define("washer-trio-compact-custom-card", WasherTrioCompactCustomCard);
 const w : any = window;
 w.customCards = w.customCards || [],
 w.customCards.push({
-    type: "whirlpool-forecast-custom-card",
-    name: "whirlpool-forecast-custom-card",
+    type: "washer-trio-compact-custom-card",
+    name: "washer-trio-compact-custom-card",
     preview: false
 });
 printVersion();
